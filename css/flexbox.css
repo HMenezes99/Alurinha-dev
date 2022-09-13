@@ -1,6 +1,6 @@
 .cabecalhoPrincipal .container{
-    display: flex;
     align-items: center;
+    display: flex;
     justify-content: space-between;    
 }
 
@@ -14,11 +14,11 @@
 }
 
 .rodapePrincipal-patrocinadores-list{
-    display: flex;
     align-items: center;
+    display: flex;
     justify-content: space-around;
-    width: 70%;
     margin-right: 5%;
+    width: 70%;
 }
 
 .rodapePrincipal-contatoForm{
@@ -34,3 +34,29 @@
     flex-flow: column wrap;
     height: 250px;
 }
+
+.conteudoPrincipal-cursos{
+    justify-content: space-between;
+    display: flex;
+    flex-wrap: wrap;
+   }
+
+.conteudoPrincipal-cursos-link{
+    width: 23%;
+    margin: 1%;
+}
+
+.conteudoPrincipal-cursos-link:nth-child(4n){
+    margin-right: 0;
+}
+
+.conteudoPrincipal-cursos-link:nth-child(4n+1){
+    margin-left: 0;
+}
+
+/*.cabecalhoPrincipal-nav{
+    flex-direction: column;
+
+}
+
+.cabecalhoPrincipal
