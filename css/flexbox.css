@@ -10,8 +10,9 @@
 
 /* Conteúdo --------------------*/
 
-.container .nav{flex-wrap: wrap;
+.conteudoPrincipal .container nav{
     display: flex;
+    flex-wrap: wrap;
 }
 
 .conteudoPrincipal-cursos {
@@ -25,11 +26,10 @@
     height: 100px;
     background-color: #FFF;
     text-align: center;
-    margin: 1%;
     transition: .3s;
     box-shadow: 2px 2px 2px #CCC;
     position: relative;
-    width: 21%;
+    width: 22%;
     
 }
 
