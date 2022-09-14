@@ -2,7 +2,7 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
-  }
+}
 
 .cabecalhoPrincipal-nav {
     display: flex;
@@ -10,14 +10,27 @@
 
 /* Conteúdo --------------------*/
 
-.conteudoPrincipal-cursos {
+.container .nav{flex-wrap: wrap;
     display: flex;
+}
+
+.conteudoPrincipal-cursos {
+    grid-template-columns: repeat(4, 1fr);
+    gap: 30px;
+    margin-bottom: 1%;
     flex-wrap: wrap;
 }
 
 .conteudoPrincipal-cursos-link {
-    width: 23%;
-    gap: 1%;
+    height: 100px;
+    background-color: #FFF;
+    text-align: center;
+    margin: 1%;
+    transition: .3s;
+    box-shadow: 2px 2px 2px #CCC;
+    position: relative;
+    width: 21%;
+    
 }
 
 .conteudoPrincipal-cursos-link:nth-child(4n) {
